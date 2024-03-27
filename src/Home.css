@@ -1,0 +1,42 @@
+
+.homeContent, .contactMe button {
+	display: flex;
+	flex-direction: column;
+	color: #d3d8e0;
+	width: 60%;
+	margin: 7rem;
+	margin-bottom: 1rem;
+	background: rgba(255, 255, 255, 0.08);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(1rem);
+	-webkit-backdrop-filter: blur(7.4px);
+	border: 1px solid rgba(255, 255, 255, 0);
+	padding-left: 20px;
+}
+
+.homeContent > h1, h2 {
+	margin: 0px;
+	font-size: 60px;
+	background: -webkit-linear-gradient(45deg, #6c92b2, #E8E6EF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.homeContent > p {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.contactMe button {
+	width: 10rem;
+	height: 3rem;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.08);
+}
+
