@@ -2,9 +2,9 @@
 .header {
 	color: #d3d8e0;
 	margin: 0px;
-	background-color: hsla(0, 0%, 0%, 0.2); /* opacity */
+	background-color: hsla(0, 0%, 0%, 0.05); /* opacity */
 	backdrop-filter: blur(0.7rem);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 	position: sticky; /* fixed position */
 	top: 0; /* element will stick to top of viewport when scrolling */
 	z-index: 1000; /* priority for hiding elements when scrolling */
@@ -22,7 +22,7 @@
 }
 
 .headerElements:not(:first-child)::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
