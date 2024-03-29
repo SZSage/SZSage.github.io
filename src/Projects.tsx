@@ -13,13 +13,13 @@ export default function Projects() {
 				</div>
 				{/* Project 2 */}
 				<div className="project">
-					<h3>Project Two</h3>
+					<h3>EasyA</h3>
 					<p>Project description here...</p>
 					<p>Tech stack here...</p>
 				</div>
 				{/* Project 3 */}
 				<div className="project">
-					<h3>Project Three</h3>
+					<h3>Flagle</h3>
 					<p>Project description here...</p>
 					<p>Tech stack here...</p>
 				</div>
