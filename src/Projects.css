@@ -1,11 +1,11 @@
 
 .projectSection {
-	margin: 7rem;
+	margin-top: 10rem;
 }
 
 .projectContainer {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	color: #d3d8e0;
 	margin-top: 2rem;
 	grid-gap: 2rem;
@@ -13,11 +13,10 @@
 }
 
 .project {
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.07);
 	border-radius: 16px;
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
 	backdrop-filter: blur(20px);
-	-webkit-backdrop-filter: blur(7.4px);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	padding: 2rem;
 }
@@ -25,7 +24,6 @@
 .projectsH2 {
 	margin: 0px;
 	font-size: 50px;
-
 	background: -webkit-linear-gradient(45deg, #619461, #E8E6EF);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -34,6 +32,24 @@
 .project > h3 {
 	font-size: 36px;
 	margin: auto;
+}
+
+.projectDescription {
+	padding-top: 1rem;
+	display: flex;
+	gap: 2rem;
+}
+
+.projectDescription > p {
+	font-size: 20px;
+	color: #94A3B8;
+	width: 50%;
+}
+
+
+.verticalLine2 {
+    width: 1px;
+    background-color: #94A3B8;
 }
 
 .projectContainer:hover > * {

@@ -1,12 +1,12 @@
 
 html {
 	background: #102c39;
+	height: 100%;
 }
 
 body {
 	margin: 0;
 	min-height: 100vh;
-	overflow: auto;
 	font-family: Proxima Nova, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 	background-image: linear-gradient(to right bottom, #101e2a, #10232f, #102734, #102c39, #10313d, #153943, #1c4249, #234a4f, #345957, #47675f, #5c7668, #728471);

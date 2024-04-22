@@ -18,6 +18,10 @@ export default function Courses() {
 					<p>Software Engineering</p>
 				</div>
 				<div className="courses">
+					<h3>MTH 341</h3>
+					<p>Linear Algebra</p>
+				</div>
+				<div className="courses">
 					<h3>CS 433</h3>
 					<p>Computer & Network Security</p>
 				</div>

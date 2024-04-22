@@ -1,0 +1,14 @@
+
+
+
+.webpageContainer > .header {
+	width: 1200px;
+	max-width: 100%;
+	margin: auto;
+}
+
+.webpageContainer > *:not(.header):not(.contactMe):not(.homeContent) {
+	width: 900px;
+	max-width: 100%;
+	margin: 10rem auto 0 auto;
+}

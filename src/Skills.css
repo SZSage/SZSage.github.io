@@ -1,6 +1,7 @@
 
 .skillSection {
-	margin: 7rem;
+	margin-top: 10rem;
+	color: #d3d8e0;
 }
 
 .skillSection > h2 {
@@ -11,3 +12,42 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.languagesSection > h3 {
+	color: #d3d8e0; 
+}
+
+.languages {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.databases {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.frameworks {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.datascience {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.versioncontrol {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+.cloudplatforms {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.other {
+	display: flex;
+	justify-content: space-evenly;
+}
