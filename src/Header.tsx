@@ -13,8 +13,8 @@ export default function Header() {
 						<li className="section">Relevant Courses</li>
 						<li className="section">Resume</li>
 						<div className="verticalLine"></div>
-						<img className="headerImg1" src="src/assets/github-mark-white.svg" width="34" height="34"></img>
-						<img className="headerImg" src="src/assets/icons8-linkedin.svg" width="48" height="48"></img>
+						<img className="headerImg1" src="./src/assets/github-mark-white.svg" width="34" height="34"></img>
+						<img className="headerImg" src="./src/assets/icons8-linkedin.svg" width="48" height="48"></img>
 					</ul>
 				</div>
 			</div>
