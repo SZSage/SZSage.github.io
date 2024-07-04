@@ -7,7 +7,7 @@ export default function Projects() {
 			<div className="projectContainer">
 				{/* Project 1 */}
 				<div className="project">
-					<h3>James Webb Space Telescope Feed</h3>
+					<h3>NebulaNet</h3>
 					<div className="projectDescription">
 						<p>The project fetches new images from the James Webb Space Telescope via the MAST database, processes them with scaling algorithms, and adds detailed metadata, all based on a set observation schedule.</p>
 						<div className="verticalLine2"></div>

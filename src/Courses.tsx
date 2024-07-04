@@ -15,7 +15,7 @@ export default function Courses() {
 				</div>
 				<div className="courses">
 					<h3>CS 322</h3>
-					<p>Software Engineering</p>
+					<p>Intro to Software Engineering</p>
 				</div>
 				<div className="courses">
 					<h3>MTH 341</h3>
@@ -24,6 +24,10 @@ export default function Courses() {
 				<div className="courses">
 					<h3>CS 433</h3>
 					<p>Computer & Network Security</p>
+				</div>
+				<div className="courses">
+					<h3>CS 425</h3>
+					<p>Software Methodologies</p>
 				</div>
 				<div className="courses">
 					<h3>CS 451</h3>
