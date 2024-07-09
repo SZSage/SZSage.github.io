@@ -10,7 +10,7 @@ export default function Skills() {
           <div className="languageItem">
             <img
               className="pythonImg"
-              src="public/assets/python-5.svg"
+              src="/assets/python-5.svg"
               width="50"
               height="50"
             />
@@ -19,7 +19,7 @@ export default function Skills() {
           <div className="languageItem">
             <img
               className="luaImg"
-              src="public/assets/lua-5.svg"
+              src="/assets/lua-5.svg"
               width="50"
               height="50"
             />
@@ -28,7 +28,7 @@ export default function Skills() {
           <div className="languageItem">
             <img
               className="jsImg"
-              src="public/assets/logo-javascript.svg"
+              src="/assets/logo-javascript.svg"
               width="50"
               height="50"
             />
@@ -37,7 +37,7 @@ export default function Skills() {
           <div className="languageItem">
             <img
               className="cImg"
-              src="public/assets/c-1.svg"
+              src="/assets/c-1.svg"
               width="50"
               height="50"
             />
@@ -51,7 +51,7 @@ export default function Skills() {
           <div className="databaseItem">
             <img
               className="sqlImg"
-              src="public/assets/sql-database-generic.svg"
+              src="/assets/sql-database-generic.svg"
               width="50"
               height="50"
             />
@@ -61,7 +61,7 @@ export default function Skills() {
           <div className="databaseItem">
             <img
               className="mongoImg"
-              src="public/assets/mongodb-icon-1.svg"
+              src="/assets/mongodb-icon-1.svg"
               width="50"
               height="50"
             />
@@ -70,7 +70,7 @@ export default function Skills() {
           <div className="databaseItem">
             <img
               className="numpyImg"
-              src="public/assets/numpy-1.svg"
+              src="/assets/numpy-1.svg"
               width="50"
               height="50"
             />
@@ -79,7 +79,7 @@ export default function Skills() {
           <div className="databaseItem">
             <img
               className="pandasImg"
-              src="public/assets/pandas.svg"
+              src="/assets/pandas.svg"
               width="50"
               height="50"
             />
@@ -88,7 +88,7 @@ export default function Skills() {
           <div className="databaseItem">
             <img
               className="matplotImg"
-              src="public/assets/matplotlib-1.svg"
+              src="/assets/matplotlib-1.svg"
               width="50"
               height="50"
             />
@@ -102,7 +102,7 @@ export default function Skills() {
           <div className="frameworksItem">
             <img
               className="fastImg"
-              src="public/assets/fastapi-1.svg"
+              src="/assets/fastapi-1.svg"
               width="50"
               height="50"
             />
@@ -111,7 +111,7 @@ export default function Skills() {
           <div className="frameworksItem">
             <img
               className="reactImg"
-              src="public/assets/react-2.svg"
+              src="/assets/react-2.svg"
               width="50"
               height="50"
             />
@@ -120,7 +120,7 @@ export default function Skills() {
           <div className="frameworksItem">
             <img
               className="flaskImg"
-              src="public/assets/flask.svg"
+              src="/assets/flask.svg"
               width="50"
               height="50"
             />
@@ -129,7 +129,7 @@ export default function Skills() {
           <div className="frameworksItem">
             <img
               className="sklearnImg"
-              src="public/assets/scikit-learn.svg"
+              src="/assets/scikit-learn.svg"
               width="50"
               height="50"
             />
@@ -143,7 +143,7 @@ export default function Skills() {
           <div className="devopsToolItem">
             <img
               className="gitImg"
-              src="public/assets/git-bash.svg"
+              src="/assets/git-bash.svg"
               width="50"
               height="50"
             />
@@ -153,7 +153,7 @@ export default function Skills() {
           <div className="devopsToolItem">
             <img
               className="dockerImg"
-              src="public/assets/docker-4.svg"
+              src="/assets/docker-4.svg"
               width="50"
               height="50"
             />
@@ -162,7 +162,7 @@ export default function Skills() {
           <div className="devopsToolItem">
             <img
               className="terminalImg"
-              src="public/assets/terminal-1.svg"
+              src="/assets/terminal-1.svg"
               width="50"
               height="50"
             />
@@ -171,7 +171,7 @@ export default function Skills() {
           <div className="devopsToolItem">
             <img
               className="vimImg"
-              src="public/assets/Neovim-mark.svg"
+              src="/assets/Neovim-mark.svg"
               width="50"
               height="50"
             />
@@ -180,7 +180,7 @@ export default function Skills() {
           <div className="devopsToolItem">
             <img
               className="cloudImg"
-              src="public/assets/google-cloud-1.svg"
+              src="/assets/google-cloud-1.svg"
               width="50"
               height="50"
             />
@@ -189,7 +189,7 @@ export default function Skills() {
           <div className="devopsToolItem">
             <img
               className="linuxImg"
-              src="public/assets/linux-icon.svg"
+              src="/assets/linux-icon.svg"
               width="50"
               height="50"
             />

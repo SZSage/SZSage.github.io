@@ -15,13 +15,13 @@ export default function Header() {
             <div className="verticalLine"></div>
             <img
               className="headerImg1"
-              src="public/assets/GitHub.svg"
+              src="assets/GitHub.svg"
               width="50"
               height="50"
             ></img>
             <img
               className="headerImg"
-              src="public/assets/linkedin-icon-2.svg"
+              src="assets/linkedin-icon-2.svg"
               width="40"
               height="40"
             ></img>
