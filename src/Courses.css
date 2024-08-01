@@ -1,43 +1,50 @@
-
+/* Courses.css */
 .relevantCourses {
-	margin-top: 10rem;
+  margin-top: 10rem;
+  text-align: center;
 }
 
-.relevantCourses > h2 {
-	margin: 0px;
-	font-size: 50px;
-	background: -webkit-linear-gradient(45deg, #619461, #E8E6EF);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.coursesHeader {
+  margin: 0;
+  font-size: 50px;
+  background: -webkit-linear-gradient(45deg, #619461, #E8E6EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .coursesContainer {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	color: #d3d8e0;
-	margin-top: 2rem;
-	grid-gap: 2rem;
-	pointer-events: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.courses {
-	background: rgba(255, 255, 255, 0.07);
-	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-	backdrop-filter: blur(20px);
-	-webkit-backdrop-filter: blur(7.4px);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	padding: 2rem;
+.coursesContent {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 800px;
+  width: 100%;
 }
 
-.courses > h3 {
-	font-size: 36px;
-	margin: auto;
+.courseCategory {
+  text-align: left;
 }
 
-.courses > p {
-	font-size: 20px;
+.courseCategory h3 {
+  font-size: 24px;
+  margin: 0;
+  color: #d3d8e0;
 }
 
-
-
+.courseCategory p {
+  font-size: 18px;
+  margin: 0.5rem 0 0;
+  color: #d3d8e0;
+}

@@ -1,59 +1,94 @@
+/* Header.css */
 * {
   box-sizing: border-box;
 }
 
 .header {
-	color: #d3d8e0;
-	background-color: rgba(255, 255, 255, 0.07); /* opacity */
-	backdrop-filter: blur(0.7rem);
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	border-top: none;
-	border-bottom-left-radius: 16px;
-	border-bottom-right-radius: 16px;
-	position: sticky; /* fixed position */
-	top: 0; /* element will stick to top of viewport when scrolling */
-	z-index: 1000; /* priority for hiding elements when scrolling */
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  color: #d3d8e0;
+  background-color: rgba(255, 255, 255, 0.07); /* opacity */
+  backdrop-filter: blur(0.7rem);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: none;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  position: sticky; /* fixed position */
+  top: 0; /* element will stick to top of viewport when scrolling */
+  z-index: 1000; /* priority for hiding elements when scrolling */
 }
 
 /* media query for smaller screens */ 
 @media (max-width: 1024px) {
+  .headerElements {
+    flex-direction: column;
+  }
 
+  .headerListSections {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .myName {
+    margin-bottom: 10px;
+  }
 }
 
 .verticalLine {
-    height: 50%;
-    width: 1px;
-    background-color: #d3d8e0;
+  height: 50%;
+  width: 1px;
+  background-color: #d3d8e0;
 }
 
 .headerElements {
-    display: flex;
-    align-items: center;
-	justify-content: space-between;
-	height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
 }
 
-.headerElements > ul{
-	display: flex;
-	align-items: center;
-	padding-right: 1rem;
-	height: 4rem;
-	list-style-type: none; /* removes bullets from ul */
+.headerElements > ul {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  height: 4rem;
+  list-style-type: none; /* removes bullets from ul */
 }
 
 .headerImg1 {
-    height: 34px;
-    width: 34px;
+  height: 34px;
+  width: 34px;
+  transition: transform 0.3s;
+}
+
+.headerImg1:hover {
+  transform: scale(1.2);
+}
+
+.headerImg {
+  height: 34px;
+  width: 34px;
+  transition: transform 0.3s;
+}
+
+.headerImg:hover {
+  transform: scale(1.2);
 }
 
 .myName {
-	font-size: 20px;
-	padding-left: 1rem;
+  font-size: 20px;
+  padding-left: 1rem;
 }
 
 .headerListSections {
-	gap: 30px;
+  gap: 30px;
 }
 
+.section a {
+  text-decoration: none;
+  color: #d3d8e0;
+}
 
-
+.section.active a {
+  border-bottom: 2px solid #d3d8e0;
+}

@@ -1,55 +1,94 @@
 
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+
 .skillSection {
-	margin-top: 10rem;
-	color: #d3d8e0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  color: #d3d8e0;
 }
 
-.skillSection > h2 {
-	margin: 0px;
-	font-size: 50px;
-	background: -webkit-linear-gradient(45deg, #619461, #E8E6EF);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.combinedSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 450px;
+  max-width: 100%;
+  margin: 3rem auto 0 auto;
+  color: #d3d8e0;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.languagesSection > h3 {
-	color: #d3d8e0; 
+.verticalLine2 {
+  height: 300px;
+  width: 1px;
+  margin: auto;
+  background-color: #94A3B8;
+  align-self: stretch;
 }
 
-.languages {
-	display: flex;
-	justify-content: space-evenly;
-	border: 1px solid orange;
+.languagesSection,
+.databaseSection,
+.frameworksSection,
+.toolsSection {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
 }
 
-
-.databases {
-	display: flex;
-	justify-content: space-evenly;
+.languageItem,
+.databaseItem,
+.frameworksItem,
+.toolItem {
+  display: flex;
+  flex-direction: row;
 }
 
-.frameworks {
-	display: flex;
-	justify-content: space-evenly;
+.languageItem img,
+.databaseItem img,
+.frameworksItem img,
+.toolItem img {
+  margin-bottom: 5px;
+  margin-right: 6px;
 }
 
-.datascience {
-	display: flex;
-	justify-content: space-evenly;
+.languageItem p,
+.databaseItem p,
+.frameworksItem p,
+.toolItem p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 20px;
 }
 
-.versioncontrol {
-	display: flex;
-	justify-content: space-evenly;
+h2 {
+  margin: 0;
+  font-size: 50px;
+  background: -webkit-linear-gradient(45deg, #619461, #E8E6EF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-.cloudplatforms {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.devopsTool {
-	display: flex;
-	justify-content: space-evenly;
+.languagesSection > h3,
+.databaseSection > h3,
+.frameworksSection > h3,
+.toolsSection > h3 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #d3d8e0;
 }
