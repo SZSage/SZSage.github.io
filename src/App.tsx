@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Courses from "./Courses";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const sections = [
   { id: "about-me", title: "About Me" },
@@ -60,6 +61,7 @@ export default function App() {
       <Projects />
       <Courses />
       <Contact />
+      <Footer />
     </div>
   );
 }

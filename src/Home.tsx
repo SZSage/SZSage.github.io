@@ -29,20 +29,14 @@ export default function Home() {
   return (
     <div id="about-me" className="centerContainer">
       <div className={`homeContent ${boxVisible ? "visible-box" : ""}`}>
-        <h1
-          className={`typing-name ${nameVisible ? "typing-name-visible" : ""}`}
-        >
+        <h1 className={`typing-name ${nameVisible ? "typing-name-visible" : ""}`}>
           Simon Zhao
         </h1>
-
         <div
-          className={`hidden-content ${contentVisible ? "visible-content" : ""}`}
-        >
+          className={`hidden-content ${contentVisible ? "visible-content" : ""}`}>
           <p>
             I'm a{" "}
-            <strong style={{ color: "#84AE84" }}>
-              backend software developer
-            </strong>{" "}
+            <strong style={{ color: "#84AE84" }}> backend software develope </strong>{" "}
             with a strong interest in working with{" "}
             <strong style={{ color: "#84AE84" }}>backend systems</strong>,{" "}
             <strong style={{ color: "#84AE84" }}>and databases.</strong>
