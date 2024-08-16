@@ -124,21 +124,6 @@ export default function Projects() {
             />
           </div>
         </div>
-        {/* Project 4 */}
-        <div id="project4" className="project">
-          <h3>SusGuard: Adblocker Chrome Extension</h3>
-          <div className="projectDescription">
-            <p>
-              A Google Chrome extension designed to enhance the online security
-              of users browsing on the internet.
-            </p>
-            <div className="verticalLine2"></div>
-            <p>
-              <strong>Tech Stack: </strong>HTML, CSS, JavaScript, Chrome
-              Extension APIs
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );

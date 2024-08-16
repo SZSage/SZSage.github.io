@@ -36,7 +36,7 @@ export default function Home() {
           className={`hidden-content ${contentVisible ? "visible-content" : ""}`}>
           <p>
             I'm a{" "}
-            <strong style={{ color: "#84AE84" }}> backend software develope </strong>{" "}
+            <strong style={{ color: "#84AE84" }}> backend software developer </strong>{" "}
             with a strong interest in working with{" "}
             <strong style={{ color: "#84AE84" }}>backend systems</strong>,{" "}
             <strong style={{ color: "#84AE84" }}>and databases.</strong>
@@ -46,7 +46,6 @@ export default function Home() {
             developing scripts, and exploring command line tools to enhance
             productivity and streamline workflows.
           </p>
-
           <div className="contactMe">
             <button type="button" className="contactMeButton">
               Contact Me

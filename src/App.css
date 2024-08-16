@@ -1,4 +1,10 @@
 
+.webpageContainer {
+ /* background-image: url('assets/abstract-dark-low-poly-design-background_1048-14819.jpg'); */
+  background-size: contain;
+  background-position: center;
+}
+
 .webpageContainer > .header {
 	width: 1200px;
 	max-width: 100%;
